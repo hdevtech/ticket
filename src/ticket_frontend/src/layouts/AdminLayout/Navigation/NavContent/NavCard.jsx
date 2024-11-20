@@ -14,7 +14,7 @@ const NavCard = () => {
             <img src={sidebarImages} className="img-radius " alt="User-Profile" />
             <h5 className="text-white">ticket</h5>
             <a
-              href="https://hdev.rw"
+              href=""
               target={itemTarget}
               className="btn text-white btn-primary"
             >
