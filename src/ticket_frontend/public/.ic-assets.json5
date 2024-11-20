@@ -1,0 +1,17 @@
+[
+    {
+        "match": "**/*",
+        "headers": {
+            "Content-Security-Policy": "",
+            "Permissions-Policy": "",
+            "X-Frame-Options": "DENY",
+            "Referrer-Policy": "",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+            "X-Content-Type-Options": "nosniff",
+            "X-XSS-Protection": "",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type, Authorization"
+        }
+    }
+]

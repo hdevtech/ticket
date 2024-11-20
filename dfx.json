@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "ticket_backend": {
+      "main": "src/ticket_backend/main.mo",
+      "type": "motoko"
+    },
+    "ticket_frontend": {
+      "dependencies": [
+        "ticket_backend"
+      ],
+      "source": [
+        "src/ticket_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "ticket_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
